@@ -18,4 +18,5 @@ console.log(muchos_peces.includes("Pepitillo"))
 
 /**
  * ¿Por qué el primer console log arroja el valor "true" y el segundo arroja el valor "false"?
+ * // El método includes() determina si una matriz incluye un determinado elemento, devuelve true o false según corresponda, en este caso Pepitillo no está en el array de muchos_peces.
  */

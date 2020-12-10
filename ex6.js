@@ -6,14 +6,14 @@ function existePez(listaPeces, pezBuscado) {
     let pezEncontrado = false
     let i = 0
 
-    while(!pezEncontrado && i<listapeces.length-1) {
-        pezEncontrado = (listaPeces[i] == pezBuscado) 
-        i++      
-    }
-
-    return pezEncontrado
+    while(!pezEncontrado && i<listaPeces.length-1) { 
+        if(pezEncontrado = listaPeces.includes(pezBuscado)) {
+            return pezEncontrado == true
+         } else {
+            i++
+         }  
+ }
 }
-
 let muchos_peces = ["Dory", "Nemo", "Shipho", "Estrella"]
 let he_encontrado_al_pez = existePez(muchos_peces, "Estrella")
 
